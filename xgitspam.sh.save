@@ -1,3 +1,0 @@
-if ! screen -list | grep -q "gitspam"; then
-  cd /home/pi/minecraft
-  screen -S minecraft -d -m i
